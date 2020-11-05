@@ -21,6 +21,14 @@ namespace Game.Storage
         }
 
         [SerializeField] private FriendlyActorStorage friendlyStorage;
+        
+        
+        [Serializable]
+        public class EnemyActorStorage : SerializableDictionaryBase<GlobalActorEnum.EnemyActor, string>
+        {
+        }
+
+        [SerializeField] private EnemyActorStorage enemyActorStorage;
 
         public Actor GetActor(GlobalActorEnum.FriendlyActor friendlyActor)
         {
@@ -35,6 +43,21 @@ namespace Game.Storage
                 }
             }
             throw new Exception("Cant find " + friendlyActor.ToString());
+        }
+        
+        public Actor GetActor(GlobalActorEnum.EnemyActor enemyActor)
+        {
+            foreach (var item in enemyActorStorage)
+            {
+                if (enemyActor == item.Key)
+                {
+                    GameObject newActor =  Resources.Load(item.Value) as GameObject;
+                    Actor actor = newActor.GetComponent<Actor>();
+                    actor.actorData = Core.instance.TypeController.GetData(enemyActor);
+                    return actor;
+                }
+            }
+            throw new Exception("Cant find " + enemyActor.ToString());
         }
     }
 }

@@ -35,5 +35,14 @@ namespace Game.CoreContainer
             actorObject.transform.position = _actorPosition;
             return newActor;
         }
+        
+        public Actor InitializeActor(GlobalActorEnum.EnemyActor type, Vector3 actorPosition)
+        {
+            Actor newActor = ActorStorage.Instance.GetActor(type);
+            GameObject actorObject =  Instantiate(newActor.gameObject);
+            Vector3 _actorPosition = new Vector3(actorPosition.x,actorPosition.y,0);
+            actorObject.transform.position = _actorPosition;
+            return newActor;
+        }
     }
 }

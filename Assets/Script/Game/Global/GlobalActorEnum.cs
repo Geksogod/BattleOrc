@@ -12,6 +12,11 @@ namespace Game.GlobalEnum
             Mage,
             Warrior
         }
+
+        public enum EnemyActor
+        {
+            Orc_1
+        }
         
     }
 }

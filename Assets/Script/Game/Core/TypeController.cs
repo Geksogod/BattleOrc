@@ -25,4 +25,14 @@ public class TypeController : MonoBehaviour
                 return new FriendlyActorData(actorType);
         }
     }
+    
+    
+    public ActorData GetData(GlobalActorEnum.EnemyActor actorType)
+    {
+        switch (actorType)
+        {
+            default:
+                return new EnemyActorData(actorType);
+        }
+    }
 }

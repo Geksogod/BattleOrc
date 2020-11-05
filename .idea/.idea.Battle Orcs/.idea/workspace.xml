@@ -1,11 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b85a358-5405-463a-95d0-9a94497f4ff6" name="Default Changelist" comment="" />
+    <list default="true" id="7b85a358-5405-463a-95d0-9a94497f4ff6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Battle Orcs/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Battle Orcs/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Battle Orcs/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Battle Orcs/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Battle Orcs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Battle Orcs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Game/Core/GameInitializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Game/Core/GameInitializer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Game/Core/TypeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Game/Core/TypeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Game/Global/GlobalActorEnum.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Game/Global/GlobalActorEnum.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Game/Storage/ActorStorage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Game/Storage/ActorStorage.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Script/Game/Core/GameInitializer.cs" root0="FORCE_HIGHLIGHTING" />
@@ -15,29 +44,33 @@
     <setting file="file://$PROJECT_DIR$/Assets/Script/Game/Global/GlobalActorEnum.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Game/Core/IdController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Game/ActorData/FriendlyActorData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Game/ActorData/EnemyActorData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Game/Core/Core.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Game/Core/TypeController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Script/Game/Global/GlobalActorEnum.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Game/Core/BaseManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Game/Core/IdController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Game/Actor/Actor.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Game/ActorData/FriendlyActorData.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Game/ActorData/ActorData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Game/Core/TypeController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Game/Storage/ActorStorage.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Game/Core/Core.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Game/Actor/ActorFriend.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Game/Loader/LevelLoader.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Game/Core/GameInitializer.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Game/Actor/ActorDot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Game/Actor/ActorEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Game/Global/GlobalActorEnum.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Game/Core/GameInitializer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Game/Storage/ActorStorage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Game/Core/TypeController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Game/ActorData/EnemyActorData.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1jeR6ezyB71NSMUevc4FrcAOoMH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -60,10 +93,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="8828">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="8828" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -81,11 +114,23 @@
       <workItem from="1604162403342" duration="3586000" />
       <workItem from="1604225168033" duration="1556000" />
       <workItem from="1604240501065" duration="5506000" />
+      <workItem from="1604607320068" duration="603000" />
     </task>
     <servers />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
